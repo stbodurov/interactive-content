@@ -36,27 +36,25 @@ Some example uses of **currying** include:
 Take a look at this example:
 
 ```js live 
-function add(a, b, c) {
-    return a + b + c;
+function add(a, b) {
+    return a + b;
 }
 
-function partial(func, a, b) {
-     return function(c) {
-        func(a, b, c);
-     }
+function partial(func, a) {
+     return (b) => func(a, b);
 }
 
-const newAdd = partial(add, 3);
-console.log(newAdd(5, 2));
+const newAdd = partial(add, 2);
+console.log(newAdd(5));
 ```
 
-The original `add()` function takes in three parameters.
+The original `add()` function takes in two parameters.
 
-The `partial()` function takes in a **function** and **2 additional parameters**. 
+The `partial()` function takes in a **function** and **an additional parameter**. 
 
-After that, it **creates and returns a new function** that takes **another argument**, and **appends** it to the arguments that were **already passed in**.
+After that, it **creates and returns a new function** that takes in **another argument**, and **appends** it to the first argument that was **already passed in**.
 
-The resulting function takes in **two**, instead of **three** parameters.
+The resulting function takes in **one**, instead of **two** parameters.
 
 [/slide]
 
