@@ -26,6 +26,7 @@ In the above example, the `indexOf()` method **fails** to find `2020` in the `ye
 
 To indicate that, it returns the special value `-1`.
 
+
 - Throw an **exception**:
 
 ```js live
@@ -36,7 +37,12 @@ function toUppercase(string) {
 
   return string.toUpperCase();
 }
+
+toUppercase(5);
 ```
+
+The `toUppercase` function throws a `TypeError`, because it is invoked with a **number**, instead of a string.
+
 
 [/slide]
 
