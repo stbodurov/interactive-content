@@ -69,7 +69,7 @@ The library should provide the following ready classes for the client:
 - **FileAppender** - appends a log to a file (You need to implement a **CustomFile** class) using the provided layout
 
 - **LogFile** - a custom file class which logs messages in a string builder using a method `write()`
-    - it should have a **getter** for its **size** which is the **sum** of the ascii codes of all alphabet characters it contains (e.g. a-z and A-Z).
+    - it should have a **getter** for its **size** which is the **sum** of the ascii codes of all alphabet characters it contains (e.g. a-z and A-Z)
 
 - **Logger** - a logger class which is used to log messages
     - calls each of its appenders when something needs to be logged
