@@ -12,7 +12,7 @@ Conecteazâ JavaScript la **navigator** la fel cum DOM şi conectează la **docu
 
 **BOM** permite accesarea şi manipularea elementelor navigatorului prin **reprezentarea lor ca obiecte**.
 
-[image assetsSrc="JS-Advanced-DOM.png" /]
+[image assetsSrc="Js-advanced-DOM-1.png" /]
 
 Următoarele comenzi arată câteva dintre obiectele navigatorului:
 
@@ -30,7 +30,7 @@ console.dir(document);
 Toate variabilele globale sunt **proprietățile** sale și toate funcțiile globale sunt **metodele** sale.
 
 ```js
-var name = "Steven";
+var name = 'Steven';
 //name is now stored as a property of the window object
 
 function printYear() {

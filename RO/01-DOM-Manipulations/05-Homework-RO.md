@@ -1,4 +1,4 @@
-# Temă
+# Teme Pentru Acasă
 
 [slide hideTitle]
 
@@ -27,9 +27,9 @@ Fiecare paragraf este inițial ascuns, având atributul de afișare `display:non
 
 Adăugați un **click event listener** fiecărui **div** care afișează paragraful ascuns. 
 
-În final, puteți **adăuga** toate divs la elementul cu  un **id** **conţinut**.
+În final, puteți **adăuga** toate divs la elementul cu un **id** **conţinut**.
 
-# Exemplu
+## Exemplu
 
 [image assetsSrc="Dom-Manipulation(5).gif" /]
 
@@ -141,7 +141,7 @@ După 2 secunde, **ascunde** acest div.
 
 In exemplul de mai jos, să apară o notificare, atunci când dăm click pe buton.
 
-# Exemplu
+## Exemplu
 
 [image assetsSrc="Dom-Manipulation(7).gif" /]
 

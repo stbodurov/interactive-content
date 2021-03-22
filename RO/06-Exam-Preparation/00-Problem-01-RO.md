@@ -1,19 +1,19 @@
-# Problema 1: manager de cerință
+# Problem 1: Task Manager
 [slide hideTitle]
-# Manager de cerință
+# Task Manager
 
-[video src="https://videos.softuni.org/hls/Javascript/Javascript-Advanced/07.JS-Advanced-Exam-Preparation/EN/Problem-1-Task-Manager-,1080p,720p,480p,360p,240p,.mp4/urlset/master.m3u8" poster="" /]
+[video src="https://videos.softuni.org/hls/Javascript/Javascript-Advanced/07.JS-Advanced-Exam-Preparation/RO/Problem-1-Task-Manager-,1080p,720p,480p,360p,240p,.mp4/urlset/master.m3u8" poster="" /]
 
 [code-task title="Task Manager" taskId="js-advanced-exam-preparation-task-manager" executionType="tests-execution" executionStrategy="javascript-js-dom-unit-tests" requiresInput] [code-editor language=javascript]
 
 ```
 function taskManager(){
-  // Write your code here
+  // Scrieți codul dvs. aici
 }
 ```
 [/code-editor]
 [task-description]
-# Description
+# Descriere
 
 **Aici aveți un link către** [resources](https://videos.softuni.org/resources/javascript/javascript-advanced/JS-Advanced-Exam-Preparation-First-Task-Resources.zip) **pentru această cerință.**
 

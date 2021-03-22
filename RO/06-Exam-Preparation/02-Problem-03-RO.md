@@ -3,7 +3,7 @@
 
 # Bank
 
-[video src="https://videos.softuni.org/hls/Javascript/Javascript-Advanced/07.JS-Advanced-Exam-Preparation/EN/Problem-3-Bank-,1080p,720p,480p,360p,240p,.mp4/urlset/master.m3u8" poster="" /]
+[video src="https://videos.softuni.org/hls/Javascript/Javascript-Advanced/07.JS-Advanced-Exam-Preparation/RO/Problem-3-Bank-,1080p,720p,480p,360p,240p,.mp4/urlset/master.m3u8" poster="" /]
 
 [code-task title="Bank" taskId="js-advanced-exam-preparation-bank" executionType="tests-execution" executionStrategy="javascript-unit-tests-with-mocha" requiresInput] [code-editor language=javascript]
 ```
@@ -26,14 +26,14 @@ Clasa **Bank** ar trebui să aibă aceste **2 proprietăți:**
 - bankName \- o proprietate **privată** de tip șir
 - allCustomers \- inițial o matrice goală
 
-"**newCustomer (customer)**": **clientul** este de tip obiect "\{**firstName, lastName, personalId**\}".
+- `newCustomer (customer)`": **clientul** este de tip obiect "\{**firstName, lastName, personalId**\}".
 
 Verificați dacă sunt deja un client al băncii. Dacă sunt deja generați această eroare:
 "\{**firstName**\} \{**lastName**\} **is already our customer!**"
 
 Dacă nu această funcție ar trebui să adauge un nou client cu următoarele funcționalități.
 
-"**depositMoney (personalId, amount)**": **personalId** și **amount** ar trebui să fie numere
+- `depositMoney (personalId, amount)`: **personalId** și **amount** ar trebui să fie numere
 
 Verificați dacă **personalId** dat corespunde unui client din **mulțimea de clienți**, dacă nu generați această eroare:
 
@@ -43,7 +43,7 @@ Altfel, adăugați cantitatea corespunzătoare într-o proprietate numită **tot
 
 "\{**totalMoney**\}\$"
 
-"**withdrawMoney (personalId, amount)**":  **personalId** și **amount** ar trebui să fie numere.
+- `withdrawMoney (personalId, amount)`:  **personalId** și **amount** ar trebui să fie numere.
 
 Verificați dacă **personalId** cdat corespunde unui client din **mulțimea de clienți**, dacă nu **generați o nouă eroare:**
 

@@ -21,7 +21,7 @@ Când există colecții de obiecte care trebuie să partajeze **operațiuni comu
 
 [slide hideTitle]
 
-# Aggregation Example
+# Exemple de Agregare
 
 [video src="https://videos.softuni.org/hls/Javascript/Javascript-Advanced/05.JS-Advanced-Object-Composition/RO/JS-Advanced-Object-Composition-15-aggregation-example-,1080p,720p,480p,360p,240p,.mp4/urlset/master.m3u8" poster="" /]
 
@@ -175,7 +175,7 @@ console.log(c);
 
 Delegarea este atunci când un obiect transmite sau delegează altui obiect.
 
-Delegarea este frecvent utilizată pentru a imita  moștenirea clasei în JavaScript.
+Delegarea este frecvent utilizată pentru a imita moștenirea clasei în JavaScript.
 
 Tipurile încorporate JavaScript folosesc delegarea pentru a redirecționa metoda încorporată către metoda calls up the prototype chain.
 
