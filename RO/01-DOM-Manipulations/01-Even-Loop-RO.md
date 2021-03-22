@@ -11,7 +11,7 @@ Bucla **event loop** este un concept fundamental în programarea asincronă Java
 
 JavaScript este un limbaj **event-driven**. 
 
-Ce înseamnă asta Că în loc să așteptăm un răspuns înainte de a merge mai departe,  **JavaScript** va continua să execute în timp ce ascultă alte evenimente și de aceea avem nevoie de reapelări(callback).
+Ce înseamnă asta Că în loc să așteptăm un răspuns înainte de a merge mai departe, **JavaScript** va continua să execute în timp ce ascultă alte evenimente și de aceea avem nevoie de reapelări(callback).
 
 O funcție **callback** este o funcție pasată într-o altă funcție ca argument, care este invocată apoi în interiorul funcției externe pentru a completa un tip de rutină sau acțiune. 
 
