@@ -227,7 +227,7 @@ function addItem(){
 [task-description]
 # Descriere
 
-***Aici este un link către** [resurse](https://videos.softuni.org/resources/javascript/javascript-advanced/JS-Advanced-DOM-Manipulations-Lab-02.Add-Delete.zip) **pentru această sarcină.**
+**Aici este un link către** [resurse](https://videos.softuni.org/resources/javascript/javascript-advanced/JS-Advanced-DOM-Manipulations-Lab-02.Add-Delete.zip) **pentru această sarcină.**
 
 Extindeți problema anterioară pentru a afișa un link `[Delete]` după fiecare element din listă. 
 
