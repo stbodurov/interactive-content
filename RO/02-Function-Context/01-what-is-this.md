@@ -1,5 +1,5 @@
 # What is "this"?
-[slide]
+[slide hideTitle]
 # Function Context
 
 **Function context** refers to the object that **owns** the code, which is currently being executed. The context depends on the way the function is invoked. 
