@@ -1,6 +1,6 @@
 # Event Loop
 
-[slide]
+[slide hideTitle]
 # Don't Make the Thread Wait
 
 _Download the resources needed for this lesson from here:_ [Mega.nz](https://mega.nz/file/6VAgTbqT#eTEsCGG6h0WErbhKN9PgO0S5NRk2NCSHhk5uoC-O4YU)
