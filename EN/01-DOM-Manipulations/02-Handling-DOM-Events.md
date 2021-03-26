@@ -4,6 +4,7 @@
 # Event Propagation
 
 In the browser we have 3 phases of event propagation:
+
 - Capturing phase – the event goes down to the element.
 - Target pharse – the event reaches the target element.
 - Bubbling phase – the event bubbles up from the element.
